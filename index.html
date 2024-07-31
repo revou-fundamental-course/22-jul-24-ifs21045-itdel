@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agent</title>
+  <!-- Menghubungkan dengan file css -->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<!-- Bagian logo dan menu -->
+<body>
+  <nav>
+    <header>
+      <div class="logo-icon">Travel Agent</div>
+    </header>
+
+    <section class="nav-container">
+      <a class="nav-item" href="#home">Home</a>
+      <a class="nav-item" href="#our-package">Our Package</a>
+      <a class="nav-item" href="#call-us">Call us</a>
+    </section>
+  </nav>
+
+  <main>
+    <h1 id="home">Your Trusted Travel Agent</h1>
+    <div class="title">
+      <p>Your happiness is our happiness</p>
+    </div>
+    <!-- Bagian slider -->
+    <div class="slider">
+      <div class="slides">
+        <div class="slide">
+          <img src="asset/danau.jpg" alt="danau1">
+        </div>
+        <div class="slide">
+          <img src="asset/destinasi2.jpg" alt="danau2">
+        </div>
+        <div class="slide">
+          <img src="asset/destinasi3.jpg" alt="danau3">
+        </div>
+        <div class="slide">
+          <img src="asset/destinasi4.jpg" alt="danau3">
+        </div>
+        <div class="slide">
+          <img src="asset/destinasi5.jpg" alt="danau3">
+        </div>
+      </div>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+    <!-- Bagian contact us -->
+    <div id="call-us" class="content">
+      <div class="image-container">
+        <img src="asset/tel.jpg" alt="danau" class="main-image">
+        <p class="testimonial">"Liburan jadi menyenangkan bersama Travel Agentku."</p>
+      </div>
+
+      <div class="contact-form">
+        <form id="contactForm">
+          <h3>Contact Us</h3>
+          <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+
+          <label for="name">Your Name:</label>
+          <input id="name" type="text" name="name" required>
+
+          <label for="email">Email Address:</label>
+          <input id="email" type="email" name="email" required>
+
+          <label for="pilihan">Pilihan:</label>
+          <select id="pilihan" name="pilihan">
+            <option value="option1">Pilihan 1</option>
+            <option value="option2">Pilihan 2</option>
+            <option value="option3">Pilihan 3</option>
+            <option value="option4">Pilihan 4</option>
+          </select>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <!-- Bagian profile -->
+    <div class="info-section">
+      <div class="profile">
+        <img src="asset/cindy.png" alt="profile" class="profile-image">
+        <div class="profile-text">
+          <p class="name">Cinndy Simangunsong</p>
+          <p class="occupation">Programmer, 21</p>
+        </div>
+      </div>
+
+    
+        <h3>Steps:</h3>
+        <ol>
+          <li>Choose your destination</li>
+          <li>Book your travel package</li>
+          <li>Prepare your travel documents</li>
+          <li>Enjoy your trip</li>
+          <li>Give us feedback</li>
+        </ol>
+      </div>
+<!-- Bagian our package -->
+    <div id="our-package" class="our-package">Our Package</div>
+    <div class="packages">
+      <div class="package-item">
+        <h3>Jakarta</h3>
+        <p>Destinasi yang satu ini cocok untuk Anda yang ingin berwisata dengan unsur budaya Indonesia. TMII menawarkan pemandangan kebudayaan bangsa yang mencakup aneka busana dan tarian daerah, miniatur kepulauan Indonesia, kereta gantung, museum, dan lain-lain.</p>
+      </div>
+      <div class="package-item">
+        <h3>Bandung</h3>
+        <p>Braga adalah ikon kota Bandung, dan enggak mungkin liburan ke Bandung kalau enggak menyempatkan diri sekadar lewat atau bahkan singgah untuk menikmati hypenya Braga. Dari restoran, bar, sampai coffee shop kekinian yang berdiri di dalam gedung tua yang terjaga, semuanya ada di Braga.</p>
+      </div>
+      <div class="package-item">
+        <h3>Yogyakarta</h3>
+        <p>HeHa Sky View sangat populer dan bisa dijangkau dalam 30 menit saja dari Kota Jogja. HeHa Sky View berisi tempat selfie, food stall, dan resto. Tempatnya sangat instagramable, banyak spot foto keren dengan pemandangan langit dan Kota Jogja dari ketinggian </p>
+      </div>
+      <div class="package-item">
+        <h3>Bali</h3>
+        <p>Wisata alam di Bali ini memang cukup viral di instragram akhir-akhir ini karena menyuguhkan pemandangan alam yang begitu mempesona. Perbukitan yang hijau dipenuhi dengan pepohonan tropis yang lengkap dengan area persawahan dan lembah. Karena tempatnya yang begitu romantis dan eksotis.</p>
+      </div>
+      <div class="package-item">
+        <h3>Lombok</h3>
+        <p>Salah satu pantai yang populer di Lombok, yaitu Pantai Senggigi. Letaknya di Jalan Raya Senggigi, Batu Layar, Kabupaten Lombok Barat. </p>
+      </div>
+      <div class="package-item">
+        <h3>Medan</h3>
+        <p>Istana Maimun bisa dibilang merupakan tempat wisata terpopuler di dalam area Kota Medan. Merupakan istana Kesultanan Deli dan menjadi ikon Kota Medan, istana ini didesain oleh arsitek dari tentara Kerajaan Belanda untuk Sultan Deli. Arsitekturnya inilah yang membuat istana ini unik dan begitu populer - desain interiornya memadukan unsur-unsur Melayu, Islam, Spanyol, India, Belanda, dan bahkan Italia.</p>
+      </div>
+    </div>
+<!-- Bagian closing argumen -->
+    <div class="closing-argument">
+      <h2>Your closing argument headline</h2>
+      <p>"Traveling – it leaves you speechless, then turns you into a storyteller." – Ibn Battuta</p>
+    </div>
+  </main>
+
+  <!-- Bagian footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <p>Email: contact@travelagent.com</p>
+        <p>Phone: +123 456 789</p>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <a href="#" >Facebook</a>
+        <a href="#" >Twitter</a>
+        <a href="#" >Instagram</a>
+      </div>
+      
+      <div class="footer-section">
+        <h4>About Us</h4>
+        <p>Layanan travel yang banyak diminati oleh pengunjung, dan travel ternyaman.</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2024 Cindy Travel Agent. All rights reserved.</p>
+    </div>
+  </footer>
+  
+<!-- Menghubungkan dengan file .js -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
