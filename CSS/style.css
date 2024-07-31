@@ -20,6 +20,55 @@ nav {
   background-color: #4CAF50;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
+
+  .slider img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .content, .info-section, .our-package, .packages, .closing-argument {
+    text-align: center; 
+  }
+
+  .contact-form {
+    width: 90%; 
+    margin: 0 auto; 
+  }
+
+  .packages {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+  }
+
+  .package-item {
+    padding: 10px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-icon {
+    font-size: 18px;
+  }
+
+  .nav-item {
+    font-size: 14px; 
+  }
+
+  .profile-image {
+    width: 100%; 
+    height: auto; 
+  }
+}
 
 header {
   display: flex;
@@ -41,6 +90,7 @@ header {
 
 .nav-container {
   display: flex;
+  gap: 20px;
 }
 
 .nav-item {
@@ -60,6 +110,7 @@ main {
   max-width: 1000px;
   width: 100%;
   padding: 20px 15px;
+  box-sizing: border-box;
 }
 
 h1 {
